@@ -13,9 +13,7 @@ Créer une landing page type, réutilisable sur plusieur projet, en utilisant la
 ## Architecture de nos components
 - App
   - HomeSection
-    - Navbar
-    - Logo
-    - Description
+    - ...
   - AdvantageSection
     - ...
   - GalerieSection
