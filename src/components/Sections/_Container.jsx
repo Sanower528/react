@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 const styles = {
   defaultContainer : {
     border: '2px dashed red',
@@ -17,7 +16,9 @@ class Container extends React.Component {
 
         <div
           className='col-xs-12 col-sm-8 col-md-9 col-lg-8'
-          style={{ ...styles.defaultContainer, ...this.props.containerStyle }}>
+          style={{
+            ...styles.defaultContainer,
+            ...this.props.containerStyle }}>
 
           {this.props.children}
 
